@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultar CEP</title>
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" href="imagens/CEP__1_-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
    <div class="container">
@@ -13,7 +14,7 @@
         <form >
             <div class="frm-row">
                 <label for="Cep">CEP</label>
-                <input type="text" nome="Cep" id="Cep">
+                <input type="text" nome="Cep" id="Cep" maxlength="8">
             </div>
             <div class="frm-row">
                 <label for="Rua">Rua</label>
@@ -32,6 +33,11 @@
                 <input type="text" nome="Estado" id="Estado">
             </div>
         </form>
+        <a href="descobrir-cep.htlm">Não sei meu CEP</a>
    </div>
+   <details>
+    <p>conteudo</p>
+   </details>
+   <script src="js/consultorCEP.js"></script>
 </body>
 </html>
