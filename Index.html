@@ -2,43 +2,40 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultar CEP</title>
-    <link rel="stylesheet" href="CSS/estilo.css">
-    <link rel="icon" href="imagens/CEP__1_-removebg-preview.png" type="image/x-icon">
+    <link href="css/estilo.css" rel="stylesheet">
+    <title>Consulta CEP</title>
 </head>
 <body>
-   <div class="container">
-        <h2>Consultar CEP</h2>
-        <form >
+
+    <div class="container">
+        <h2>Consulta CEP</h2>
+        <form>
             <div class="frm-row">
-                <label for="Cep">CEP</label>
-                <input type="text" nome="Cep" id="Cep" maxlength="8">
+                <label for="cep">cep</label>
+                <input type="text" name="cep" id="cep" maxlength="8">
             </div>
             <div class="frm-row">
-                <label for="Rua">Rua</label>
-                <input type="text" nome="Rua" id="Rua">
+                <label for="rua">rua</label>
+                <input type="text" name="rua" id="rua">
             </div>
             <div class="frm-row">
-                <label for="Bairro">Bairro</label>
-                <input type="text" nome="Bairro" id="Bairro">
+                <label for="bairro">bairro</label>
+                <input type="text" name="bairro" id="bairro">
             </div>
             <div class="frm-row">
-                <label for="Cidade">Cidade</label>
-                <input type="text" nome="Cidade" id="Cidade">
+                <label for="cidade">cidade</label>
+                <input type="text" name="cidade" id="cidade">
             </div>
             <div class="frm-row">
-                <label for="Estado">Estado</label>
-                <input type="text" nome="Estado" id="Estado">
+                <label for="estado">estado</label>
+                <input type="text" name="estado" id="estado">
             </div>
         </form>
-        <a href="descobrir-cep.html">Não sei meu CEP</a>
-   </div>
-   <details>
-     <a href="#">Como foi feito</a>
-     <a href="#">Como faço</a>
-   </details>
-   <script src="js/consultorCEP.js"></script>
+
+        <a href="descobrir-cep.html">Não sabe seu CEP?</a>
+    </div>
+
+    <script src="js/consulta-endereço.js"></script>
 </body>
 </html>
